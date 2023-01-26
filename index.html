@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .aroow{
+            margin-left: 710px;
+            padding-bottom: 5px;
+        }
+        .ere{
+            width: 200px;
+            border-radius: 5px;
+            background-color: blanchedalmond;    
+            font-size: 20px;
+        }
+      
+        
+        .r1{
+            width: 50%;
+            text-align: center; 
+            color: white;
+            font-size: 30px;
+            background-color: darkslateblue;
+            margin: 5px;
+            border-radius: 10px;
+            border: solid black;
+          
+
+        }
+        .ghg{
+            display: flex;
+        }
+
+        
+        body{
+            background-color: darkseagreen;
+        }
+        .aa{
+            text-align: center; 
+            color:darkslateblue;
+            font-size: 30px;
+                     
+        }
+        .title{
+            background-color:darkslateblue;
+            text-align: center;
+            padding: 5px;
+            font-size: 20px;
+            color: white;
+            margin: 5px;
+            border: solid black;
+            border-radius: 10px;
+            transition: 1.5s;
+            margin-left: 500px; 
+            margin-right: 500px;  
+        }
+        .title:hover{
+            background-color:white;
+            text-align: center;
+            padding: 5px;
+            font-size: 20px;
+            color:darkslateblue;
+            margin: 5px;
+            border: solid black;
+            border-radius: 10px;
+            transition: 1.5s;
+        }
+        .ee{
+            font-size: 25px;
+            background-color:darkslateblue;
+            border: solid black;
+            border-radius: 10px;
+            padding: 10px;
+            transition: 1s;
+          
+           
+        }
+        .ee:hover{
+            font-size: 25px;
+            background-color:white;
+            border: solid black;
+            border-radius: 10px;
+            padding: 10px;
+            transition: 1s;
+            color:darkslateblue; 
+        }
+        .button{
+            border-radius: 10px;
+            border: solid black;
+            background-color: darkslateblue;
+            color: white;
+            padding: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 678px;
+            transition: all 0.5s;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+        }
+        .button:hover{
+            border-radius: 10px;
+            border: solid black;
+            background-color:white;
+            color: darkslateblue;         
+            padding: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin-left: 678px;
+            transition: all 0.5s;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+        }
+        .qq{
+            
+           margin-left: 340px;      
+        }
+        .n2{
+            width: 50%;
+            background-color: deeppink;
+            padding: 30px;
+            color: aliceblue;
+            margin: 5px;
+            border-radius: 10px;
+            border: solid 2px white;
+        }
+        .n1{
+            width: 50%;
+            background-color: cornflowerblue;
+            padding: 30px;
+            color: aliceblue;
+            margin: 5px;
+            border-radius: 10px;
+            border: solid 2px white;
+        }
+
+        .ff{
+            display: flex;
+        }    
+    </style>
+</head>
+<body>  
+        <div class="title">
+            <h1 id="result_para" >Schools</h1>
+        </div>
+           
+        <div class="ff">
+
+            <div class="n1">
+                <div class="qq">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M17.208 36.667V25h-3.333V14.625q0-1.125.833-1.937.834-.813 1.959-.813h6.666q1.125 0 1.959.813.833.812.833 1.937V25h-3.333v11.667ZM20 9.625q-1.292 0-2.208-.937-.917-.938-.917-2.23 0-1.291.917-2.208.916-.917 2.208-.917 1.292 0 2.208.917.917.917.917 2.208 0 1.292-.917 2.23-.916.937-2.208.937Z"/></svg>
+                </div>
+                
+                <label class="ee" for="fname">Number of Boys : </label>
+                <br><br>
+                <input class="ere" type="text" placeholder="Add Number" id="boys_html_textbox"><br><br>
+            </div>
+
+            <div class="n2">
+                <div class="qq">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M17.208 36.667v-9.459h-5l4.542-13.375q.375-1.041 1.271-1.604.896-.562 1.979-.562 1.083 0 1.979.562.896.563 1.271 1.604l4.542 13.375h-5v9.459ZM20 9.625q-1.292 0-2.208-.937-.917-.938-.917-2.23 0-1.291.917-2.208.916-.917 2.208-.917 1.292 0 2.208.917.917.917.917 2.208 0 1.292-.917 2.23-.916.937-2.208.937Z"/></svg>  
+
+                </div>
+                
+                <label class="ee" for="fname">Number of Girls : </label>
+                <br><br>
+                <input class="ere" type="text" placeholder="Add Number" id="girls_html_textbox" ><br><br>
+            </div>
+
+        </div>
+        <br>
+
+        <button class="button" onclick="statistics()">Click Here</button>
+        
+        <P class="aa">"STATISTICS"</P> 
+        <div class="aroow">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24 40.65 7.4 24l2.6-2.55 12.2 12.2V7.4h3.65v26.25l12.2-12.2 2.6 2.55Z"/></svg>
+        </div>
+
+        
+
+        <div class="ghg">
+            <div class="r1">
+                <P  id="percent_boys">BOYS % : </P>        
+               
+            </div>
+            <div class="r1">
+                <P id="percent_girls">GIRLS % : </P>
+            </div>
+
+            <div class="r1">
+                <P id="total_students">TOTAL STUDENTS : </P>      
+                
+            </div>
+            <div class="r1">
+                <P id="percent_disabled">DISABLED : </P>
+            </div>
+        </div>
+        
+        
+        
+        
+        <script>
+            function statistics()
+            {
+                var boys  = 0;
+                var girls = 0;
+                var total_students,boys_p,girls_p,disabled_p;
+
+                boys = Number(document.getElementById("boys_html_textbox").value);
+                girls = Number(document.getElementById("girls_html_textbox").value);
+                
+                //Calculation:
+                total_students = boys + girls;
+                boys_p = (boys / total_students) * 100;
+                girls_p = (girls / total_students) * 100;
+                disabled_p = total_students * (0.07);
+
+
+                document.getElementById('total_students').innerHTML += total_students.toFixed(0);
+                document.getElementById('percent_boys').innerHTML += boys_p.toFixed(2);
+                document.getElementById('percent_girls').innerHTML += girls_p.toFixed(2);
+                document.getElementById('percent_disabled').innerHTML += disabled_p.toFixed(0);
+
+                console.log('Inside statistics');
+                console.log('Boys: '+boys);
+                console.log('Girls: '+girls);
+
+                console.log('Total: '+total_students);
+                console.log('Boys%: '+boys_p.toFixed(2));
+                console.log('Girls%: '+girls_p.toFixed(2));
+                console.log('Dis: '+disabled_p.toFixed(2));
+            }          
+        </script>
+
+</body>
+</html>
